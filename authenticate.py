@@ -1,3 +1,6 @@
+#multi-threaded authentication server for Narriox c# client 
+#tested on windows 10
+
 import time
 import threading
 import socket
@@ -7,10 +10,6 @@ import sqlite3
 import datetime
 
 exitFlag = 0
-
-
-
-
 
 
 class Client(threading.Thread):
