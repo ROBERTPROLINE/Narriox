@@ -1,4 +1,5 @@
 #complete payment made by ecocash with approvalcode
+#only works with ecocash payments - Ecocash zimbabwe mobile money platform
 
 import threading
 import socket
